@@ -190,15 +190,79 @@ body {
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
+    font-style: italic;
 }
 
 .quote-section .quote-section-author {
 
     font-size: 26px;
     font-weight: 500;
+    font-style: unset;
 }
 /*quote section*/
 
 
-/**/
-/**/
+/*CTA*/
+.call-to-action {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.call-to-action .box {
+
+    background-color: #3882f6;
+    color: white;
+
+    padding: 40px 130px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 8px;
+
+    gap: 300px;
+}
+
+.call-to-action .text {
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.call-to-action h3 {
+
+    font-size: 25px;
+
+    margin: 0;
+}
+
+.call-to-action p {
+
+    font-size: 18px;
+
+    margin: 0;
+
+    opacity: 0.85;
+}
+
+.call-to-action button {
+
+    background-color: #3882F6;
+    color: white;
+
+    padding: 8px 32px;
+    
+    border-radius: 8px;
+    border: 2px solid white;
+
+    font-size: 19px;
+}
+/*CTA*/
